@@ -17,8 +17,8 @@ NUM_GPUS=1
 
 # Data paths (modify these to point to your preprocessed EMG HDF5 files)
 # Multiple files can be specified using comma separation
-TRAIN_FILES="/lambda/nfs/Kiana/PhysioWave/DB6_processed_8ch/train.h5"
-VAL_FILES="/lambda/nfs/Kiana/PhysioWave/DB6_processed_8ch/val.h5"
+TRAIN_FILES="/lambda/nfs/Kiana/PhysioWave-main9/DB6_processed_8ch/train.h5"
+VAL_FILES="/lambda/nfs/Kiana/PhysioWave-main9/DB6_processed_8ch/val.h5"
 
 # Output directory for checkpoints and logs
 OUTPUT_DIR="./pretrain_emg_output"
